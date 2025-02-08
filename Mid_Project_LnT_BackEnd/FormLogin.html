@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Login</title>
+        <link rel="stylesheet"
+        href="CSS/LoginStyle.css">
+    </head>
+    
+    <body align="center">
+        <header>
+            <h1>Untuk Login menuju Dashboard Page</h1>
+            <h2>Login di Bawah ini !!!</h2>
+        </header>
+        <form action="Login.php" method="POST">
+            <fieldset>
+                <legend>Login</legend>
+                <p>
+                    <label>Username atau Email:</label>
+                    <input type="text" name="username_email" placeholder="Username atau Email..." required>
+                </p>
+                <p>
+                    <label>Password:</label>
+                    <input type="password" name="password" placeholder="password..." required>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="remember" value="remember">Remember me</label>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="Login">
+                </p>
+                <p>
+                    <a href="Register.html">Register</a>
+                </p>
+            </fieldset>
+        </form><br>
+     
+        <footer align="center">
+            Copyright &copy; 2024; Eric Gunawan & Steven Christopher Martin
+        </footer>
+    </body>
+</html>

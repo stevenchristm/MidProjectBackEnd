@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="CSS/LoginStyle.css">
+</head>
+
+<body>
+    <form action="register.php" method="POST">
+        <fieldset>
+            <legend>Registrasi</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama Lengkap..." required autocomplete="off">
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal" required>
+        </p>
+        <p>
+            <label>Umur:</label>
+            <input type="number" min="1" max="100" name="umur" required>
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..." required autocomplete="off">
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="text" name="password" placeholder="Password..." required>
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your Email..." required> 
+        </p>
+        <p>
+            <label>Jenis Kelamin</label>
+            <br>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" required>Laki-Laki</label>
+            <br>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" required>Perempuan</label>
+        </p>
+        <p>
+            <label>Hobi:</label>
+            <br>
+            <label><input type="checkbox" name="hobi[]" value="Berolahraga">Berolahraga</label>
+            <br>
+            <label><input type="checkbox" name="hobi[]" value="Bermain Musik">Bermain Musik</label>
+            <br>
+            <label><input type="checkbox" name="hobi[]" value="Membaca & Menulis">Membaca & Menulis</label>
+            <br>
+            <label><input type="checkbox" name="hobi[]" value="Memasak">Memasak</label>
+            <br>
+            <label><input type="checkbox" name="hobi[]" value="Bermain Game">Bermain Game</label>
+        </p>
+        <p>
+            <label>Biografi:</label>
+            <textarea name="biografi" placeholder="Tempat Lahir & Profesi..." required></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar">
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>

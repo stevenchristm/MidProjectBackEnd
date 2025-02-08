@@ -1,0 +1,22 @@
+fieldset{
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: gold;
+}
+legend{
+    font-style: oblique;
+    background-color: wheat;
+}
+input{
+    background-color: khaki;
+}
+body {
+    background-image: url(../Image/land.jpeg);
+}
+input[type=text]{
+    font-style: initial;
+    background: none;
+    color: brown;
+    padding: 10px;
+    border: 1px solid crimson;
+}

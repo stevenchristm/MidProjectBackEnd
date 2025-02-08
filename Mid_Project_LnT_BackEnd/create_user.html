@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"
+        href="CSS/tambah.css">
+</head>
+<body>
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" align = "center">Tambah Data Orang</h1>
+    <br><br><br>
+    <form action="create_user.php" method="POST" enctype="multipart/form-data">
+        <label>Foto:</label>
+        <input type="file" name="photo" required><br><br>
+
+        <label>First Name:</label>
+        <input type="text" name="first_name" placeholder="first name..."required><br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="last_name" placeholder="last name..." required><br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="email..."required><br><br>
+
+        <label>Bio:</label>
+        <textarea name="bio" placeholder="alamat & profesi..."required></textarea><br><br>
+
+        <button type="submit" name="submit">Tambah Data</button>
+    </form>
+</body>
+</html>
